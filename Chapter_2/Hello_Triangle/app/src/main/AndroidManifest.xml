@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.openglesbook.hellotriangle"
+      package="com.opengl.triangle"
       android:versionCode="1"
       android:versionName="1.0">
       
@@ -13,7 +13,7 @@
                  android:allowBackup="false"
                  android:label="@string/app_name">
         
-        <activity android:name=".HelloTriangle"
+        <activity android:name="com.opengl.triangle.MainActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
