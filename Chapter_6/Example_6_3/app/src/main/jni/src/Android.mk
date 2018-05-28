@@ -9,7 +9,12 @@ LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/base/ \
         $(LOCAL_PATH)/model/ \
         $(LOCAL_PATH)/render/ \
-        $(LOCAL_PATH)/util/
+        $(LOCAL_PATH)/util/ \
+        $(LOCAL_PATH)/../glm \
+        $(LOCAL_PATH)/../glm/glm \
+        $(LOCAL_PATH)/../glm/glm/detail \
+        $(LOCAL_PATH)/../glm/glm/gtc \
+        $(LOCAL_PATH)/../glm/glm/gtx
 
 LOCAL_CFLAGS := $(LOCAL_C_INCLUDES:%=-I%)
 LOCAL_CFLAGS += -DANDROID_NDK
@@ -27,6 +32,8 @@ LOCAL_ARM_MODE := arm
 #LOCAL_STATIC_LIBRARIES += libmxuvc
 
 LOCAL_SRC_FILES := \
+        ../glm/glm/detail/dummy.cpp \
+        ../glm/glm/detail/glm.cpp \
         util/GLInfo.cpp \
         util/GLUtil.cpp \
         render/OpenGLRender.cpp \

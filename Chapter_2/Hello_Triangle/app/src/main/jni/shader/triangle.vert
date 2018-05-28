@@ -3,8 +3,10 @@ const char* triangle_vert = STRINGIFY(
 
 layout(location = 0) in vec4 a_position;
 
+uniform mat4 u_mvpMatrix;
+
 void main()
 {
-   gl_Position = a_position;
+   gl_Position = u_mvpMatrix * a_position;
 }
 );

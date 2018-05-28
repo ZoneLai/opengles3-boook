@@ -6,6 +6,8 @@
 #include <android/native_window_jni.h>
 #include "Singleton.h"
 #include "JniHelper.h"
+#include "glm.hpp"
+#include "ext.hpp"
 class OpenGLRender : public Singleton<OpenGLRender> {
 public:
     OpenGLRender();
@@ -22,12 +24,16 @@ public:
 
 private:
     GLuint                      _sProgramPlay;
+    GLint						_mvpMatrixLoc;
     int                         _widgetWidth;
     int                         _widgetHeight;
     const GLfloat               _mVerticesData[9] = {
-         0.0f,  0.5f, 0.0f,
-        -0.5f, -0.5f, 0.0f,
-         0.5f, -0.5f, 0.0f
+         0.0f,  1.0f, 0.0f,
+        -1.0f, -1.0f, 0.0f,
+         1.0f, -1.0f, 0.0f
     };
-
+    glm::mat4                   _mvpMatrix;
+    glm::mat4                   _modelMatrix;
+    glm::mat4                   _viewMatrix;
+    glm::mat4                   _projectionMatrix;
 };
