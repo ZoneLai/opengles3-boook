@@ -32,6 +32,7 @@ task buildNative(type: Exec, description: 'Compile JNI source via NDK') {
             'NDK_DEBUG=0',
             'V=1'
 }
+
 task cleanNative(type: Exec, description: 'Clean JNI object files') {
     def ndkDir = android.ndkDirectory
     //  if (Os.isFamily(Os.FAMILY_WINDOWS)) {

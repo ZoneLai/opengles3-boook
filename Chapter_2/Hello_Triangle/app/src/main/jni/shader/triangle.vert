@@ -1,10 +1,10 @@
 const char* triangle_vert = STRINGIFY(
 \#version 300 es \n
 
-in vec4 v_position;
+layout(location = 0) in vec4 a_position;
 
 void main()
 {
-   gl_Position = v_position;
+   gl_Position = a_position;
 }
 );

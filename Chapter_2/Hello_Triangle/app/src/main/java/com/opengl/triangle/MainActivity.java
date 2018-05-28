@@ -40,26 +40,26 @@ import android.os.Bundle;
  **/
 public class MainActivity extends Activity {
 
-    private TriangleSurface triangleSurface;
+    private TriangleSurface mTriangleSurface;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.avtivity_main);
 
-        triangleSurface = findViewById(R.id.sv_triangle);
+        mTriangleSurface = findViewById(R.id.sv_triangle);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        triangleSurface.onResume();
+        mTriangleSurface.onResume();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        triangleSurface.onPause();
+        mTriangleSurface.onPause();
     }
 
 }

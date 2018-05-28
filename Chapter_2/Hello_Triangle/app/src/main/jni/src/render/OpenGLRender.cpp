@@ -33,9 +33,9 @@ void OpenGLRender::onDestroy() {
 
 void OpenGLRender::initGL() {
     if (CompileShaderProgram(triangle_vert, triangle_frag, &_sProgramPlay)) {
-        glBindAttribLocation(_sProgramPlay, 0, "v_position");
+        //glBindAttribLocation(_sProgramPlay, 0, "v_position");
         glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
-    }  else {
+    } else {
       LOGE("CompileShader Error=================");
     }
 }
