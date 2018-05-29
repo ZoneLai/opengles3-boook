@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/VertexArrayObjects.iml" filepath="$PROJECT_DIR$/VertexArrayObjects.iml" />
+      <module fileurl="file://E:\mLearning\opengles3-boook\Chapter_6\VertexArrayObjects\VertexArrayObjects.iml" filepath="E:\mLearning\opengles3-boook\Chapter_6\VertexArrayObjects\VertexArrayObjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\mLearning\opengles3-boook\Chapter_6\VertexArrayObjects\app\app.iml" filepath="E:\mLearning\opengles3-boook\Chapter_6\VertexArrayObjects\app\app.iml" />
     </modules>
   </component>
 </project>
