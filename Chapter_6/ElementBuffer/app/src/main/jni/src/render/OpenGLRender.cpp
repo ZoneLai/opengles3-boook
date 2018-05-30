@@ -58,7 +58,7 @@ void OpenGLRender::initGL() {
 
         glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
     } else {
-      LOGE("CompileShader Error=================");
+        LOGE("CompileShader Error=================");
     }
 }
 
