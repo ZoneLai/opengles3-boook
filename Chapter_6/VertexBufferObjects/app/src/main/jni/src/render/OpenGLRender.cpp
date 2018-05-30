@@ -65,7 +65,7 @@ void OpenGLRender::drawFrame() {
     LOGE("==============================");
     // 设置视口大小
     glViewport(0, 0, _widgetWidth, _widgetHeight);
-    // 清除颜色缓冲区
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
     // 启用着色器
     glUseProgram(_sProgramPlay);

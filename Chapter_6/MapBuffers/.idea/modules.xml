@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MapBuffers.iml" filepath="$PROJECT_DIR$/MapBuffers.iml" />
+      <module fileurl="file://E:\mLearning\opengles3-boook\Chapter_6\MapBuffers\MapBuffers.iml" filepath="E:\mLearning\opengles3-boook\Chapter_6\MapBuffers\MapBuffers.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\mLearning\opengles3-boook\Chapter_6\MapBuffers\app\app.iml" filepath="E:\mLearning\opengles3-boook\Chapter_6\MapBuffers\app\app.iml" />
     </modules>
   </component>
 </project>

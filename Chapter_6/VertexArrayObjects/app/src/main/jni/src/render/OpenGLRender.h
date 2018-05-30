@@ -27,7 +27,7 @@ private:
     GLint						_mvpMatrixLoc;
     int                         _widgetWidth;
     int                         _widgetHeight;
-    const GLfloat               _mVerticesData[32] = {
+    const GLfloat               _mVerticesData[24] = {
         -1.0f, -1.0f, 0.0f, 1.0f, 1.0f, 0.0f, 0.0f, 1.0f, // v(x, y, z, w), c(r, g, b, a)
          1.0f, -1.0f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0f, 1.0f,
          0.0f,  1.0f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 1.0f
