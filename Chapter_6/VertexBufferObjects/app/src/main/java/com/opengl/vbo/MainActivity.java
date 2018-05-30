@@ -42,7 +42,6 @@ public class MainActivity extends Activity {
 
     private CenterSurfaceView mCenterSurfaceView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
