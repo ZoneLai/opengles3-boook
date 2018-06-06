@@ -70,6 +70,8 @@ void OpenGLRender::drawFrame() {
     glEnableVertexAttribArray(0);
 
     glDrawArrays(GL_TRIANGLES, 0, 3);
+
+    glUseProgram(0);
 }
 
 GLint OpenGLRender::getTextureId() {

@@ -57,7 +57,6 @@ public class TriangleRenderer implements GLSurfaceView.Renderer {
         System.loadLibrary("opengl-lib");
     }
 
-
     public TriangleRenderer(Context context) {
         nativeOnCreate();
     }
