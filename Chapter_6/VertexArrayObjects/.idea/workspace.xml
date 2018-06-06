@@ -46,21 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OpenGLRender.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OpenGLRender.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/jni/src/render/OpenGLRender.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            <state relative-caret-position="381">
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VaoRenderer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VaoRenderer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/opengl/vao/VaoRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1931,7 +1931,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2128,6 +2128,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
@@ -2197,14 +2198,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="device.picker.selection" value="474e6c69" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Chapter_8/Simple_VertexShader" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1527994027410" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1528291150855" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -2298,7 +2298,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527999120592" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528291161283" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2346,7 +2346,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527999120592" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528291161283" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2378,27 +2378,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2529,7 +2508,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1527999120593" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528291161283" />
       </method>
     </configuration>
     <list size="1">
@@ -2582,8 +2561,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2595,8 +2574,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2623,6 +2602,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/src/render/OpenGLRender.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/src/render/OpenGLRender.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/opengl/vao/VaoRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/opengl/vao/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -2637,24 +2648,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#3118#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2011#2012#0" expanded="false" />
-            <element signature="e#2043#2044#0" expanded="false" />
-            <element signature="e#2126#2127#0" expanded="false" />
-            <element signature="e#2156#2157#0" expanded="false" />
-            <element signature="e#2357#2358#0" expanded="false" />
-            <element signature="e#2390#2391#0" expanded="false" />
-            <element signature="e#2420#2421#0" expanded="false" />
-            <element signature="e#2452#2453#0" expanded="false" />
-            <element signature="e#2481#2482#0" expanded="false" />
-            <element signature="e#2512#2513#0" expanded="false" />
-            <element signature="e#2540#2541#0" expanded="false" />
-            <element signature="e#2570#2571#0" expanded="false" />
-            <element signature="e#2601#2602#0" expanded="false" />
-            <element signature="e#2634#2635#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2696,24 +2690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#3118#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2011#2012#0" expanded="false" />
-            <element signature="e#2043#2044#0" expanded="false" />
-            <element signature="e#2126#2127#0" expanded="false" />
-            <element signature="e#2156#2157#0" expanded="false" />
-            <element signature="e#2357#2358#0" expanded="false" />
-            <element signature="e#2390#2391#0" expanded="false" />
-            <element signature="e#2420#2421#0" expanded="false" />
-            <element signature="e#2452#2453#0" expanded="false" />
-            <element signature="e#2481#2482#0" expanded="false" />
-            <element signature="e#2512#2513#0" expanded="false" />
-            <element signature="e#2540#2541#0" expanded="false" />
-            <element signature="e#2570#2571#0" expanded="false" />
-            <element signature="e#2601#2602#0" expanded="false" />
-            <element signature="e#2634#2635#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2755,24 +2732,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#3118#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2011#2012#0" expanded="false" />
-            <element signature="e#2043#2044#0" expanded="false" />
-            <element signature="e#2126#2127#0" expanded="false" />
-            <element signature="e#2156#2157#0" expanded="false" />
-            <element signature="e#2357#2358#0" expanded="false" />
-            <element signature="e#2390#2391#0" expanded="false" />
-            <element signature="e#2420#2421#0" expanded="false" />
-            <element signature="e#2452#2453#0" expanded="false" />
-            <element signature="e#2481#2482#0" expanded="false" />
-            <element signature="e#2512#2513#0" expanded="false" />
-            <element signature="e#2540#2541#0" expanded="false" />
-            <element signature="e#2570#2571#0" expanded="false" />
-            <element signature="e#2601#2602#0" expanded="false" />
-            <element signature="e#2634#2635#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2814,24 +2774,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#3118#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2011#2012#0" expanded="false" />
-            <element signature="e#2043#2044#0" expanded="false" />
-            <element signature="e#2126#2127#0" expanded="false" />
-            <element signature="e#2156#2157#0" expanded="false" />
-            <element signature="e#2357#2358#0" expanded="false" />
-            <element signature="e#2390#2391#0" expanded="false" />
-            <element signature="e#2420#2421#0" expanded="false" />
-            <element signature="e#2452#2453#0" expanded="false" />
-            <element signature="e#2481#2482#0" expanded="false" />
-            <element signature="e#2512#2513#0" expanded="false" />
-            <element signature="e#2540#2541#0" expanded="false" />
-            <element signature="e#2570#2571#0" expanded="false" />
-            <element signature="e#2601#2602#0" expanded="false" />
-            <element signature="e#2634#2635#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2876,24 +2819,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="76" column="73" lean-forward="false" selection-start-line="76" selection-start-column="73" selection-end-line="76" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#3118#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2011#2012#0" expanded="false" />
-            <element signature="e#2043#2044#0" expanded="false" />
-            <element signature="e#2126#2127#0" expanded="false" />
-            <element signature="e#2156#2157#0" expanded="false" />
-            <element signature="e#2357#2358#0" expanded="false" />
-            <element signature="e#2390#2391#0" expanded="false" />
-            <element signature="e#2420#2421#0" expanded="false" />
-            <element signature="e#2452#2453#0" expanded="false" />
-            <element signature="e#2481#2482#0" expanded="false" />
-            <element signature="e#2512#2513#0" expanded="false" />
-            <element signature="e#2540#2541#0" expanded="false" />
-            <element signature="e#2570#2571#0" expanded="false" />
-            <element signature="e#2601#2602#0" expanded="false" />
-            <element signature="e#2634#2635#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2927,24 +2853,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="76" column="73" lean-forward="false" selection-start-line="76" selection-start-column="73" selection-end-line="76" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#3118#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2011#2012#0" expanded="false" />
-            <element signature="e#2043#2044#0" expanded="false" />
-            <element signature="e#2126#2127#0" expanded="false" />
-            <element signature="e#2156#2157#0" expanded="false" />
-            <element signature="e#2357#2358#0" expanded="false" />
-            <element signature="e#2390#2391#0" expanded="false" />
-            <element signature="e#2420#2421#0" expanded="false" />
-            <element signature="e#2452#2453#0" expanded="false" />
-            <element signature="e#2481#2482#0" expanded="false" />
-            <element signature="e#2512#2513#0" expanded="false" />
-            <element signature="e#2540#2541#0" expanded="false" />
-            <element signature="e#2570#2571#0" expanded="false" />
-            <element signature="e#2601#2602#0" expanded="false" />
-            <element signature="e#2634#2635#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3005,14 +2914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/jni/src/render/OpenGLRender.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/opengl/vao/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -3036,8 +2937,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/opengl/vao/VaoRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="286">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/src/render/OpenGLRender.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -36,8 +36,8 @@
       <file leaf-file-name="OpenGLRender.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/jni/src/render/OpenGLRender.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="103" column="12" lean-forward="false" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+            <state relative-caret-position="330">
+              <caret line="122" column="29" lean-forward="false" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -46,7 +46,7 @@
       <file leaf-file-name="OpenGLRender.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/jni/src/render/OpenGLRender.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
+            <state relative-caret-position="726">
               <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
               <folding />
             </state>
@@ -56,7 +56,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/opengl/texture/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
+            <state relative-caret-position="242">
               <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="61" selection-end-column="5" />
               <folding />
             </state>
@@ -66,7 +66,7 @@
       <file leaf-file-name="Texture2DRenderer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/opengl/texture/Texture2DRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="418">
               <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
               <folding />
             </state>
@@ -76,7 +76,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
+            <state relative-caret-position="1254">
               <caret line="57" column="1" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="57" selection-end-column="1" />
               <folding />
             </state>
@@ -1951,8 +1951,8 @@
         <option value="$PROJECT_DIR$/app/src/main/jni/src/render/OpenGLRender.h" />
         <option value="$PROJECT_DIR$/app/src/main/jni/src/model/PngLoader.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/jni/src/model/PngLoader.h" />
-        <option value="$PROJECT_DIR$/app/src/main/jni/src/render/OpenGLRender.cpp" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/opengl/texture/Texture2DRenderer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/src/render/OpenGLRender.cpp" />
       </list>
     </option>
   </component>
@@ -1977,6 +1977,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Simple_Texture2D" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2111,28 +2126,13 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Simple_Texture2D" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="device.picker.selection" value="474e6c69" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Chapter_10/MultiTexture" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1528119628767" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1528291265201" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -2231,7 +2231,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528126061230" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528291276591" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2279,7 +2279,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528126061230" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528291276591" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2311,27 +2311,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2462,7 +2441,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528126061231" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528291276593" />
       </method>
     </configuration>
     <list size="1">
@@ -2648,13 +2627,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/avtivity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/cat.png">
@@ -2730,7 +2709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2738,7 +2716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2797,7 +2774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/jni/src/render/OpenGLRender.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
+        <state relative-caret-position="726">
           <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
           <folding />
         </state>
@@ -2805,7 +2782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/opengl/texture/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="242">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="61" selection-end-column="5" />
           <folding />
         </state>
@@ -2813,7 +2790,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/opengl/texture/Texture2DRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="418">
           <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
           <folding />
         </state>
@@ -2821,7 +2798,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
+        <state relative-caret-position="1254">
           <caret line="57" column="1" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="57" selection-end-column="1" />
           <folding />
         </state>
@@ -2829,8 +2806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/jni/src/render/OpenGLRender.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="103" column="12" lean-forward="false" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+        <state relative-caret-position="330">
+          <caret line="122" column="29" lean-forward="false" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
           <folding />
         </state>
       </provider>

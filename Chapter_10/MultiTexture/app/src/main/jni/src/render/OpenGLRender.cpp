@@ -129,15 +129,13 @@ void OpenGLRender::onSurfaceChanged(int widgetWidth, int widgetHeight) {
     _viewMatrix         = glm::lookAt(glm::vec3(0.0f, 0.0f, 6.0f), glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f));
     _projectionMatrix   = glm::ortho(-1.0f, 1.0f, -(float) _widgetHeight / _widgetWidth, (float) _widgetHeight / _widgetWidth, 5.0f, 7.0f);
     _mvpMatrix		    = _projectionMatrix * _viewMatrix * _modelMatrix;
+    // 设置视口大小
+    glViewport(0, 0, _widgetWidth, _widgetHeight);
 }
 
 void OpenGLRender::drawFrame() {
     LOGE("==============================");
     glBindVertexArray(_vaoBuffer);
-    // 设置视口大小
-    glViewport(0, 0, _widgetWidth, _widgetHeight);
-    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
-    glClear(GL_COLOR_BUFFER_BIT);
     // 清除颜色缓冲区
     glClear(GL_COLOR_BUFFER_BIT);
     // 启用着色器

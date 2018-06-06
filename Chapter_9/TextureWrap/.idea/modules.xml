@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TextureWrap.iml" filepath="$PROJECT_DIR$/TextureWrap.iml" />
-      <module fileurl="file://E:\mLearning\opengles3-boook\Chapter_9\TextureWrap\TextureWrap.iml" filepath="E:\mLearning\opengles3-boook\Chapter_9\TextureWrap\TextureWrap.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://E:\mLearning\opengles3-boook\Chapter_9\TextureWrap\app\app.iml" filepath="E:\mLearning\opengles3-boook\Chapter_9\TextureWrap\app\app.iml" />
     </modules>
   </component>
 </project>
